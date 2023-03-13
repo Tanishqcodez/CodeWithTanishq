@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+.button-prim{
+    @apply inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)];
+}
+@tailwind utilities;
